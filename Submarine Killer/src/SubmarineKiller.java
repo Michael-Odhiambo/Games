@@ -1,4 +1,3 @@
-package SubKillerVersion1;
 
 /**
  * Author: Michael Allan Odhiambo.
@@ -18,7 +17,7 @@ import javafx.scene.paint.Color;
 /**
  * This program implements a simple arcade game in which the user tries to
  * blow up a "submarine" ( a black oval ) by dropping "depth charges" ( a red disk )
- * from a "boat" ( a blue roundrect ). The user moves the boat with the left- and right
+ * from a "boat" ( a blue roundRect ). The user moves the boat with the left- and right
  * arrow keys and drops the depth charge with the down-arrow key. The sub moves left
  * and right erratically along the bottom of the canvas.
  */
