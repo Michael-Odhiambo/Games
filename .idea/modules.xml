@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Blackjack/Blackjack.iml" filepath="$PROJECT_DIR$/Blackjack/Blackjack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Checkers1.0/Checkers1.0.iml" filepath="$PROJECT_DIR$/Checkers1.0/Checkers1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/GameOfLife/GameOfLife.iml" filepath="$PROJECT_DIR$/GameOfLife/GameOfLife.iml" />
       <module fileurl="file://$PROJECT_DIR$/Games.iml" filepath="$PROJECT_DIR$/Games.iml" />
       <module fileurl="file://$PROJECT_DIR$/Submarine Killer/SubmarineKiller.iml" filepath="$PROJECT_DIR$/Submarine Killer/SubmarineKiller.iml" />
