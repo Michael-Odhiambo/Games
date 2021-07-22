@@ -114,16 +114,16 @@ public class CheckersData {
          */
         for ( int row = 0; row < 8; row++ ) {
             for (int col = 0; col < 8; col++) {
-                if (board[row][col] == player || board[row][col] == playerKing) {
+                if ( board[row][col] == player || board[row][col] == playerKing ) {
 
-                    if (canJump(player, row, col, row + 1, col + 1, row + 2, col + 2))
-                        moves.add(new CheckersMove(row, col, row + 2, col + 2));
-                    if (canJump(player, row, col, row - 1, col + 1, row - 2, col + 2))
-                        moves.add(new CheckersMove(row, col, row - 2, col + 2));
-                    if (canJump(player, row, col, row + 1, col - 1, row + 2, col - 2))
-                        moves.add(new CheckersMove(row, col, row + 2, col - 2));
-                    if (canJump(player, row, col, row - 1, col - 1, row - 2, col - 2))
-                        moves.add(new CheckersMove(row, col, row - 2, col - 2));
+                    if ( canJump(player, row, col, row + 1, col + 1, row + 2, col + 2) )
+                        moves.add( new CheckersMove(row, col, row + 2, col + 2) );
+                    if ( canJump(player, row, col, row - 1, col + 1, row - 2, col + 2) )
+                        moves.add( new CheckersMove(row, col, row - 2, col + 2) );
+                    if ( canJump(player, row, col, row + 1, col - 1, row + 2, col - 2) )
+                        moves.add( new CheckersMove(row, col, row + 2, col - 2) );
+                    if ( canJump(player, row, col, row - 1, col - 1, row - 2, col - 2) )
+                        moves.add( new CheckersMove(row, col, row - 2, col - 2) );
 
                 }
             }
